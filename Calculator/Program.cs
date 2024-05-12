@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 
 namespace SimpleCalculator
 {
     class Program
     {
-        static void Muin(string[] args)
+        static void Main(string[] args)
         {
             Console.WriteLine("Добро пожаловать в калькулятор!");
 
@@ -20,7 +20,7 @@ namespace SimpleCalculator
             Console.Write("Введите второе число: ");
             double num2 = Convert.ToDouble(Console.ReadLine());
 
-            int result = 0;
+            double result = 0;
 
             // Выполнение операции в зависимости от введенного оператора
             switch (op)
